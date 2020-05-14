@@ -15,8 +15,5 @@ button.addEventListener('click',function(){
       name.innerHTML = nameValue;
       desc.innerHTML = descValue;
       temp.innerHTML = tempValue;
-
     })
-
-  .catch(err => alert("Wrong City Name!""))
 })
