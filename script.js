@@ -1,5 +1,5 @@
 var lat = document.getElementById("lat");
-var lon = document.getElementById("lon")
+var lon = document.getElementById("lon");
 
 function getLocation() {
   if (navigator.geolocation) {
