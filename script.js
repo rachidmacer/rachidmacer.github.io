@@ -1,17 +1,14 @@
-const container = document.querySelector('.container');
+var x = document.getElementById("demo");
 
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
 
-
-fetch("https://weatherbit-v1-mashape.p.rapidapi.com/current?lang=en&lon=%3Crequired%3E&lat=%3Crequired%3E", {
-	"method": "GET",
-	"headers": {
-		"x-rapidapi-host": "weatherbit-v1-mashape.p.rapidapi.com",
-		"x-rapidapi-key": "df1cd4a599mshba0cf03aa9cc22cp12a53djsncbe138d6f12f"
-	}
-})
-.then(function(response) {
-  return response.json();
-})
-.then(function(myJson) {
-  console.log(myJson)
-});
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude +
+  "<br>Longitude: " + position.coords.longitude;
+}
