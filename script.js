@@ -14,6 +14,6 @@ button.addEventListener('click',function(){
 
       name.innerHTML = nameValue;
       desc.innerHTML = descValue;
-      temp.innerHTML = tempValue;
+      temp.innerHTML = tempValue + '&deg';
     })
 })
