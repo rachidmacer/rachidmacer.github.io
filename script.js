@@ -14,6 +14,6 @@ button.addEventListener('click',function(){
 
       name.innerHTML = nameValue;
       desc.innerHTML = "Expect " + descValue + " outside today.";
-      temp.innerHTML = "The current Temperature is" + tempValue + '&deg';
+      temp.innerHTML = "The current Temperature is " + tempValue + '&deg F';
     })
 })
