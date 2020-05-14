@@ -1,6 +1,4 @@
 
-
-
 function getLocation() {
   if(navigator.getlocation){
     navigator.geolocation.getCurrentPosition( position => {
