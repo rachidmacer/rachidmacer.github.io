@@ -1,5 +1,6 @@
-var lat = document.getElementById("lat");
-var lon = document.getElementById("lon");
+var x = document.getElementById("lat");
+var y = document.getElementById("lon");
+var z = x + "," + y;
 
 function getLocation() {
   if (navigator.geolocation) {
@@ -10,6 +11,6 @@ function getLocation() {
 }
 
 function showPosition(position) {
-    var lat = position.coords.latitude;
-    var lon = position.coords.longitude;
+    x.innerHTML = position.coords.latitude;
+    y.innerHTML = position.coords.longitude;
 }
