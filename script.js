@@ -3,17 +3,17 @@ var lon = document.getElementById("lon");
 
 function getLocation() {
   if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(showLongitudePosition);
     navigator.geelocation.getCurrentPosition(showLatitudePosition);
+    navigator.geolocation.getCurrentPosition(showLongitudePosition);
   } else {
     lon.innerHTML = "Geolocation is not supported by this browser.";
   }
 }
 
-function showLongitudePosition(lonPosition) {
-  lon.innerHTML = lonPosition.coords.longitude;
-}
-
 function showLatitudePosition(latPosition) {
   lat.innerHTML = latPosition.coords.latitude;
+}
+
+function showLongitudePosition(lonPosition) {
+  lon.innerHTML = lonPosition.coords.longitude;
 }
