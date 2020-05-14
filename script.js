@@ -15,5 +15,5 @@ function showLongitudePosition(lonPosition) {
 }
 
 function showLatitudePosition(latPosition) {
-  lat.innerHTML = latPosition.coords.latitude
+  lat.innerHTML = latPosition.coords.latitude;
 }
