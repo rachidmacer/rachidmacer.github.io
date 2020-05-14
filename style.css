@@ -1,11 +1,4 @@
-body{
-  background-color:#f76c6c;
-  text-align: center;
-  font-family: 'Lato', sans-serif;
-}
-.intro_heading{
-  display: block;
-}
-.intro_subheading{
-  display: block;
+.jumbotron{
+  background-color:#f16464 ;
+  color: #ffffff;
 }
