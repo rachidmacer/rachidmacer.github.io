@@ -11,9 +11,9 @@ function getLocation() {
 }
 
 function showLongitudePosition(lonPosition) {
-  lon.innerHTML = position.coords.longitude;
+  lon.innerHTML = lonPosition.coords.longitude;
 }
 
 function showLatitudePosition(latPosition) {
-  lat.innerHTML = position.coords.latitude
+  lat.innerHTML = latPosition.coords.latitude
 }
