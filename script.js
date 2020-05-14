@@ -5,7 +5,7 @@ var desc = document.querySelector('.desc');
 var temp = document.querySelector('.temp');
 
 button.addEventListener('click',function(){
-  fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&appid=efe51b26290b5235f3b2ee0e134fbec9')
+  fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&units=imperial&appid=efe51b26290b5235f3b2ee0e134fbec9')
     .then(response => response.json())
     .then(data => {
       var nameValue = data['name'];
