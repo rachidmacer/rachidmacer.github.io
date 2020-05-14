@@ -1,14 +1,13 @@
+var button = document.querySelector('.button');
+var inputValue = document.querySelector('.inputValue');
+var name = document.querySelector('.name');
+var desc = document.querySelector('.desc');
+var temp = document.querySelector('.temp');
 
-function getLocation() {
-  if(navigator.getlocation){
-    navigator.geolocation.getCurrentPosition( position => {
-      const lat = position.coords.latitude;
-      const lon = position.coors.longitude;
-      lat = document.getElementById('latitude').textContent;
-      lon = document.getElementById('longitude').textContent;
-      console.log("position");
-    });
-  } else {
-  console.log("geolocation not available");
-  }
-}
+button.addEventListener('click',function(){
+  fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&appid=efe51b26290b5235f3b2ee0e134fbec9')
+    .then(response => response.json())
+    .then(data => console.log(data))
+
+  .catch(err => alert("Wrong City Name!""))
+})
