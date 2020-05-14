@@ -13,7 +13,7 @@ button.addEventListener('click',function(){
       var descValue = data['weather'][0]['description'];
 
       name.innerHTML = nameValue;
-      desc.innerHTML = descValue;
-      temp.innerHTML = tempValue + '&deg';
+      desc.innerHTML = "Expect " + descValue + " outside today.";
+      temp.innerHTML = "The current Temperature is" + tempValue + '&deg';
     })
 })
