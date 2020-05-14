@@ -1,16 +1,15 @@
-var x = document.getElementById("lat");
-var y = document.getElementById("lon");
-var z = x + "," + y;
+
+var lat = document.getElementById('latitude').textContent;
+var lon = document.getElementById('longitude').textContent;
 
 function getLocation() {
-  if (navigator.geolocation) {
-    navigator.geelocation.getCurrentPosition(showPosition);
+  if(navigator.getlocation){
+    navigator.geolocation.getCurrentPosition( position => {
+      const lat = position.coords.latitude;
+      const lon = position.coors.longitude;
+      console.log("position");
+    });
   } else {
-    lon.innerHTML = "Geolocation is not supported by this browser.";
+  console.log("geolocation not available");
   }
-}
-
-function showPosition(position) {
-    x.innerHTML = position.coords.latitude;
-    y.innerHTML = position.coords.longitude;
 }
