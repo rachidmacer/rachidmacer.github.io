@@ -10,7 +10,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <!--navigation bar with logo, mobile toggle, and desktop sections -->
+    <!--navbar with logo, mobile toggle, and desktop sections -->
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -31,18 +31,33 @@
           </ul>
         </div>
       </div>
-    </nav>
+    </nav> <!-- End Navbar -->
 
-<!-- START OF CAROUSEL IMAGES SECTION -->
+<!-- Start Carousel Slider -->
 <div id="myCarousel" class="carousel slide" data-ride"carousel">
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
-
   </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="Images/TimeSquare.jpg">
+        <div class="carousel-caption">
+          <h1>“Progress lies not in enhancing what is, but in advancing toward what will be.”</h1>
+          <br>
+          <button type="button" class="btn btn-default">Enter</button>
+        </div>
+    </div> <!--End Active (1st image on slider)-->
+    <div class="item">
+      <img src="Images/Hollywood.jpg">
+    </div>
+    <div class="item">
+      <img src="Images/SandyBeach.jpg">
+    </div>
+  </div> <!-- End of all 3 Carousel images -->
+</div> <!--End Slider Images & Enter Button-->
 
-</div>
 
   </body>
 </html>
