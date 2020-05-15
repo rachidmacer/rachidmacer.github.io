@@ -1,3 +1,5 @@
+//function locates user and shows what the weather in their location is
+
 var button = document.querySelector('.button');
 var inputValue = document.querySelector('.inputValue');
 var name = document.querySelector('.name');
@@ -17,3 +19,6 @@ button.addEventListener('click',function(){
       temp.innerHTML = "The current Temperature is " + tempValue + '&deg F';
     })
 })
+
+
+//Opens window
