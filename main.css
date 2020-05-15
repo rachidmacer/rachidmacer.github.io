@@ -12,6 +12,11 @@
   min-height: 55px;
   padding: 0 15px 5px;
 }
-navbar-brand.img{
-  width: 50px;
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus,
+.navbar-inverse .navbar-nav .active a:hover {
+  color:#fff;
+  background-color:#eca95b;
+}
+.navbar-inverse .navbar-nav  li a {
+  color: #000000;
 }
