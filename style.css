@@ -1,8 +1,6 @@
 .jumbotron{
   background-color:#f16464 ;
   color: #ffffff;
-  padding: 200px;
-}
-.container-fluid{
-  padding: 60px 50px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
