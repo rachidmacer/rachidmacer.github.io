@@ -10,7 +10,7 @@
 .navbar-brand {
   float: left;
   min-height: 55px;
-  padding: 0 15px 5px;
+  padding: 0 15px 12px;
 }
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus,
 .navbar-inverse .navbar-nav .active a:hover {
