@@ -1,3 +1,6 @@
+body {
+  font-family: 'Montserrat'
+}
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
@@ -20,10 +23,16 @@
 .navbar-inverse .navbar-nav  li a {
   color: #000000;
 }
+.Title{
+  font-weight:800;
+}
 .carousel-caption{
   top: 60%;
   transform:translateY(-30%);
   text-transform: uppercase;
+}
+.comp-img div {
+  margin:-60px;
 }
 .btn{
   font-size: 18px;
@@ -34,12 +43,26 @@
 }
 .container {
   margin: 4% auto;
+  width: auto;
 }
-#icon{
+#icon {
   max-width: 200px;
   margin: 1% auto;
 }
-
+#emjoiIcon{
+  max-width: 200px;
+  margin: 1% auto;
+  margin-bottom: 80px;
+}
+#compgraph{
+  height: 20%;
+  width: 60%;
+  padding: 0;
+  margin: 0 auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 footer {
   width: 100%;
   background-color: #8C00FA;
