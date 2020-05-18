@@ -1,7 +1,7 @@
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
-  background-color: #eca95b;
+  background-color:#8C00FA;
   color: #fff;
   padding: 1% 0;
   font-size: 1.2em;
@@ -15,8 +15,61 @@
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus,
 .navbar-inverse .navbar-nav .active a:hover {
   color:#fff;
-  background-color:#eca95b;
+  background-color: #8C00FA;
 }
 .navbar-inverse .navbar-nav  li a {
   color: #000000;
+}
+.carousel-caption{
+  top: 60%;
+  transform:translateY(-30%);
+  text-transform: uppercase;
+}
+.btn{
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 22px;
+  background-color: #eca95b;
+  border: 2px solid #fff;
+}
+.container {
+  margin: 4% auto;
+}
+#icon{
+  max-width: 200px;
+  margin: 1% auto;
+}
+
+footer {
+  width: 100%;
+  background-color: #8C00FA;
+  color: #FFF;
+  padding: 5%;
+}
+.fa{
+  padding: 15px;
+  font-size: 30px;
+  color: #fff;
+}
+fa:hover {
+  color:#D5D5D5;
+  text-decoration: none;
+}
+
+@@media (max-width: 600px;) {
+  .carousel-cation{
+    display:none;
+  }
+  #icon{
+    max-width: 150px;
+  }
+  h2{
+    font-size: 1.7em;
+  }
+}
+@@media (max-width: 900px;) {
+  .fa{
+    font-size: 20px;
+    padding: 10px
+  }
 }
