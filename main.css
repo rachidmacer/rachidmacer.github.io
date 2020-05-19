@@ -41,6 +41,16 @@ body {
   max-width: 100px;
   max-height: 100px;
 }
+.panel {
+  margin: 3%;
+}
+.panel p, li {
+  font-size: 18px;
+}
+.panel-title{
+  color: #1F78FF;
+  font-weight: bolder;
+}
 .carousel-caption{
   top: 60%;
   transform:translateY(-30%);
