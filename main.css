@@ -10,6 +10,9 @@ body {
   font-size: 1.2em;
   border: 0;
 }
+.navbar-toggle{
+  background-color:#1F78FF;
+}
 .navbar-brand {
   float: left;
   min-height: 55px;
@@ -18,13 +21,25 @@ body {
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus,
 .navbar-inverse .navbar-nav .active a:hover {
   color:#fff;
-  background-color: #8C00FA;
+  background-color: #1F78FF;
 }
 .navbar-inverse .navbar-nav  li a {
   color: #000000;
 }
 .Title{
   font-weight:800;
+}
+.aboutMe{
+  background-color: #1F78FF;
+  color: #fff;
+  font-weight: 200;
+  padding: 10%;
+  padding-bottom: 20%;
+  margin-bottom:0;
+}
+.panel img {
+  max-width: 100px;
+  max-height: 100px;
 }
 .carousel-caption{
   top: 60%;
@@ -33,6 +48,9 @@ body {
 }
 .comp-img div {
   margin:-60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .btn{
   font-size: 18px;
