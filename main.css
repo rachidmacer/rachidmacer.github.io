@@ -20,7 +20,7 @@ body {
 }
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus,
 .navbar-inverse .navbar-nav .active a:hover {
-  color:#fff;
+  color:#000;
   background-color: #1F78FF;
 }
 .navbar-inverse .navbar-nav  li a {
