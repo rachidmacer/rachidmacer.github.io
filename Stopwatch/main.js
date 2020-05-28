@@ -8,17 +8,17 @@
   var buttonReset = document.getElementById("button-reset");
   var Interval ;
 
-  buttonStart.onClick() = function() {
+  buttonStart.onclick = function() {
 
     clearInterval(Interval);
     Interval = setInterval(startTimer, 10);
   }
 
-  buttonStop.onClick() = function() {
+  buttonStop.onclick = function() {
     clearInterval(Interval);
   }
 
-  buttonReset.onClick() = function() {
+  buttonReset.onclick = function() {
     clearInterval(Interval);
     tens = "00";
     seconds = "00";
