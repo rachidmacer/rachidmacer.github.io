@@ -17,18 +17,32 @@
   </head>
 
   <body>
-    <div class="container text-center">
-      <h1>STOPWATCH</h1>
-      <h1>VANILLA JS STOPWATCH</h1>
-      <p>
-        <span id="seconds">00</span>:<span id="tens">00</span>
-      </p>
-      <button type="button" class="btn" id="button-start">START</button>
-      <button type="button" class="btn" id="button-stop">STOP</button>
-      <button type="button" class="btn" id="button-reset">RESET</button>
+    <!-- START STOPWATCH SECTION -->
+    <section id="Stopwatch">
+      <div class="container text-center">
+        <h1>STOPWATCH</h1>
+        <h1>VANILLA JS STOPWATCH</h1>
+        <p>
+          <span id="seconds">00</span>:<span id="tens">00</span>
+        </p>
+        <button type="button" class="btn" id="button-start">START</button>
+        <button type="button" class="btn" id="button-stop">STOP</button>
+        <button type="button" class="btn" id="button-reset">RESET</button>
+        </div>
       </div>
-    </div>
+    </section>
+    <!-- END STOPWACH -->
+
+    <!-- START CLOCK SECTION -->
+    <section id="Clock">
+      <div class="container text-center">
+        <h1>Clock (Local Time)</h1>
+          <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+      </div>
+    </section>
+
     <script src="main.js" type="text/javascript"></script>
+    <script src="clock.js" type="text/javascript"></script>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

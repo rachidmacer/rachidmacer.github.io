@@ -1,7 +1,10 @@
 body {
-  background: #feca2e;
   color: #fff;
-  margin-top: 10%;
+  background: #000;
+}
+
+#Stopwatch {
+  background: #feca2e;
 }
 .btn {
   color:#fff;
@@ -22,4 +25,15 @@ body {
 p {
   padding: 15px;
   font-size: 30px;
+}
+.clock {
+  font-family: Orbitron;
+  font-size: 30px;
+  color: #17D4FE;
+
+}
+
+#Clock {
+  background: #000;
+  height: 200px;
 }
