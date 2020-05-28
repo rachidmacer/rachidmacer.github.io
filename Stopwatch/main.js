@@ -1,4 +1,3 @@
-window.onload() = function () {
 
   var tens = 00;
   var seconds = 00;
@@ -27,6 +26,8 @@ window.onload() = function () {
     appendSeconds.innerHTML = seconds;
   }
 
+
+
   function startTimer () {
     tens++;
 
@@ -52,5 +53,3 @@ window.onload() = function () {
     }
 
   }
-
-}
